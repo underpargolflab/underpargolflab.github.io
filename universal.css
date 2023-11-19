@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap');
+
+:root {
+    --dark: #0a0a09;
+    --dark-overlay: rgb(10,10,9, 0.2);
+    --main: #b20c06;
+    --main-overlay: rgb(178, 12, 6, 0.2);
+    --green: #005408;
+    --green-overlay: rgb(0, 84, 8, 0.2);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100vw;
+}
+
+
+body {
+    background: var(--dark);
+    padding: 0; 
+    margin: 0;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+	transition: all 1s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+#menu {
+    background: transparent;
+    font-family: "Audiowide";
+	position: fixed;
+	margin-top: 0px;
+	height: 80px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	transition: 0.3s;
+}
+#menucontent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#github-logo {
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+    filter: invert();
+}
+
+#header-main {
+    width: 100%;
+    margin-right: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu-right {
+    margin-right: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    position: fixed;
+}
+.menu-link {
+    margin-left: 20px;
+	font-size: 19px;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+	display: inline-block;
+	border: 3px solid transparent;
+    padding: 10px;
+	pointer-events: all;
+    text-transform: uppercase;
+}
+.menu-link:hover {
+	color: var(--main);
+    cursor: pointer;
+}
+
+#menuimage {
+    margin-left: 40px;
+    transition: 0.3s;
+	display: inline-block;
+	pointer-events: all;
+	margin-right: 20px;
+    width: 180px;
+}
+#menuimage:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#menubutton {
+    font-family: "Poppins";
+	display: none;
+}
+
+#username:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#menu-button {
+	background: transparent;
+    filter: invert();
+	pointer-events: all;
+}
+
+#logo {
+	position: fixed;
+	margin-left: 20px;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+#first-tab {
+	margin-left: 20px;
+}
+
+
+#menu-join {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	pointer-events: all;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid transparent;
+    border-bottom: 3px solid var(--second);
+    border-right: 3px solid var(--second);
+    background: transparent;
+    margin-left: 5px;
+    border: 3px solid transparent;
+    border-top: 3px solid var(--third);
+    border-left: 3px solid var(--third);
+    transition: 0.3s;
+}
+
+#menu-join:hover {
+    color: var(--main);
+    cursor: pointer;
+}
+

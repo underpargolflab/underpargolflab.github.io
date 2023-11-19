@@ -1,0 +1,80 @@
+#landing {
+    background: linear-gradient(225deg, var(--dark-overlay), var(--main-overlay)), url(./images/landing.jpg);
+    background-size: 150%;
+    width: 100%;
+    height: 120%;
+    background-position: 20% 25%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+  overflow-y: hidden;
+}
+#landing-info {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    
+}
+#landing-image {
+    width: 650px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+#trapezoid-button {
+    background: transparent;
+    border-top: 50px solid var(--main);
+	border-left: 0px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0px;
+	width: 180px;
+    margin-top: -20px;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-join {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Audiowide";
+    font-size: 25px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    width: 200px;
+    margin-left: 25px;
+    height: 50px;
+    transition: 0.2s;
+}
+#trapezoid-button:hover {
+    border-top: 50px solid whitesmoke;
+    cursor: pointer;
+}
+#landing-join:hover {
+    cursor: pointer;
+    color: var(--main);
+}
+
+#slant {
+    height: 200px;
+    width: 110%;
+    transform: rotateZ(5deg);
+    border-top: 3px solid var(--main);
+    background: var(--dark);
+    margin-top: -85px;
+    margin-left: -100px;
+}
+
+#bottom {
+    height: 1000px;
+}
