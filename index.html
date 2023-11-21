@@ -5,7 +5,6 @@
         <link rel='icon' href="./images/icon.png">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="universal.css">
-        <script src="index.js"></script>
         <script src="universal.js"></script>
     </head>
     <body>
@@ -56,6 +55,7 @@
         <div id="slant"></div>
 
         <div id="services">
+            <img id="services-lines" src="./images/lines.png">
             <div id="services-title-area">
                 <p class="header" id="services-header">Services <span style="color: var(--main)">|</span></p>
                 <p class="subheader" id="services-subheader">Improve Your Golf Game & Fitness <br>At Under Par Golf Lab</p>
@@ -64,21 +64,36 @@
             <div id="services-container">
                 <div id="services-container-1">
                     <div class="service-name" id="services-trackman">
-                        <p class="service-name-header">Trackman</p>
-                        <p class="service-name-subheader">Best Golf Launch Monitor</p>
+                        <img class="services-name-img" id="services-trackman-img" src="https://www.thegroundsgolf.com/wp-content/uploads/the-grounds-golf-flushing-mi-image-banner-trackman-golf-simulator-2500x1440.jpg">
+                        <div id="services-trackman-main">
+                            <p class="service-name-header" id="service-trackman-header">Trackman</p>
+                            <p class="service-name-subheader">Best Golf Launch Monitor</p>
+                        </div>
+                        <div class="services-name-shown" id="services-trackman-shown">
+                            <p class="service-name-shown-header" id="service-trackman-shown-header">Trackman</p>
+                            <p class="service-name-shown-subheader" id="service-trackman-shown-subheader">6 Oversized Private Trackman Equipped Bays</p>
+                            <p class="service-name-shown-desc" id="service-trackman-shown-desc">
+                                - Simulated real course experience and play (multiple course including St Andrews, Pepple Beach, and other iconic courses)<br>
+                                - Practice with key metrics such as face angle, attack angle, path, smash factor, and distance<br>
+                                - Video analysis<br>
+                                - Connectivity to Trackman App enables tracking of your individual statistics<br>
+                                - Tournaments and Leagues<br>
+                                - Member Championships
+                            </p>
+                        </div>
                     </div>
                     <div class="service-name" id="services-fitness">
-                        <p class="service-name-header">Fitness</p>
+                        <p class="service-name-header" id="service-fitness-header">Fitness</p>
                         <p class="service-name-subheader">Improve Your Movement</p>
                     </div>
                 </div>
                 <div id="services-container-2">
                     <div class="service-name" id="services-puttview">
-                        <p class="service-name-header">Puttview</p>
+                        <p class="service-name-header" id="service-puttview-header">Puttview</p>
                         <p class="service-name-subheader">360 Putting Solutions</p>
                     </div>
                     <div class="service-name" id="services-social">
-                        <p class="service-name-header">Social</p>
+                        <p class="service-name-header" id="service-social-header">Social</p>
                         <p class="service-name-subheader">One-of-a-kind Experience</p>
                     </div>
                 </div>
@@ -88,6 +103,8 @@
 
 
         <div id="bottom"></div>
+
+        <script src="index.js"></script>
     </body>
 
 

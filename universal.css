@@ -3,13 +3,13 @@
 :root {
     --dark: #0a0a09;
     --dark-overlay: rgb(10,10,9, 0.2);
-    --dark-dark-overlay: rgb(10,10,9, 0.6);
+    --dark-dark-overlay: rgb(10,10,9, 0.4);
     --main: #b20c06;
     --main-overlay: rgb(178, 12, 6, 0.2);
-    --main-dark-overlay: rgb(178, 12, 6, 0.6);
+    --main-dark-overlay: rgb(178, 12, 6, 0.4);
     --green: #005408;
     --green-overlay: rgb(0, 84, 8, 0.2);
-    --green-dark-overlay: rgb(0, 84, 8, 0.6);
+    --green-dark-overlay: rgb(0, 84, 8, 0.4);
 }
 
 html, body {
