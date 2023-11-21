@@ -3,10 +3,13 @@
 :root {
     --dark: #0a0a09;
     --dark-overlay: rgb(10,10,9, 0.2);
+    --dark-dark-overlay: rgb(10,10,9, 0.6);
     --main: #b20c06;
     --main-overlay: rgb(178, 12, 6, 0.2);
+    --main-dark-overlay: rgb(178, 12, 6, 0.6);
     --green: #005408;
     --green-overlay: rgb(0, 84, 8, 0.2);
+    --green-dark-overlay: rgb(0, 84, 8, 0.6);
 }
 
 html, body {
@@ -20,7 +23,7 @@ html, body {
 
 
 body {
-    background: var(--dark);
+    background: whitesmoke;
     padding: 0; 
     margin: 0;
     overflow-x: hidden !important;
@@ -98,7 +101,7 @@ body {
     text-transform: uppercase;
 }
 .menu-link:hover {
-	color: var(--main);
+	border-bottom: 3px solid var(--main);
     cursor: pointer;
 }
 
@@ -143,28 +146,4 @@ body {
 }
 
 
-#menu-join {
-	font-size: 18px;
-	text-decoration: none;
-	color: white;
-	pointer-events: all;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 3px solid transparent;
-    border-bottom: 3px solid var(--second);
-    border-right: 3px solid var(--second);
-    background: transparent;
-    margin-left: 5px;
-    border: 3px solid transparent;
-    border-top: 3px solid var(--third);
-    border-left: 3px solid var(--third);
-    transition: 0.3s;
-}
-
-#menu-join:hover {
-    color: var(--main);
-    cursor: pointer;
-}
 

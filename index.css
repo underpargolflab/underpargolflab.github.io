@@ -70,11 +70,104 @@
     width: 110%;
     transform: rotateZ(5deg);
     border-top: 3px solid var(--main);
-    background: var(--dark);
+    background: whitesmoke;
     margin-top: -85px;
     margin-left: -100px;
+    z-index: 2;
 }
 
 #bottom {
     height: 1000px;
 }
+
+#services {
+    background: whitesmoke;
+    position: relative;
+    z-index: 5;
+    margin-top: -110px;
+}
+#services-title-area {
+    display: flex;
+    align-items: center;
+}
+#services-header {
+    font-family: "Audiowide";
+    padding-left: 250px;
+    height: 100px;
+    color: var(--dark);
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: none;
+}
+#services-subheader {
+    font-size: 25px;
+    color: var(--dark);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Audiowide";
+    margin-left: 30px;
+    margin-top: 8px;
+}
+#services-subheader-2 {
+    padding-left: 250px;
+    margin-top: -70px;
+}
+#services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+#services-container-1, #services-container-2 {
+    width: 700px;
+}
+#services-container-2 {
+    margin-top: 200px;
+}
+.service-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#services-trackman {
+    background: linear-gradient(155deg, var(--dark-dark-overlay), var(--dark-dark-overlay)), url(https://www.thegroundsgolf.com/wp-content/uploads/the-grounds-golf-flushing-mi-image-banner-trackman-golf-simulator-2500x1440.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+#services-fitness {
+    background: linear-gradient(25deg, var(--dark-dark-overlay), var(--dark-dark-overlay)), url(./images/fitness-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: -25px;
+}
+#services-puttview {
+    background: linear-gradient(225deg, var(--dark-dark-overlay), var(--dark-dark-overlay)), url(https://www.puttview.com/fileadmin/_processed_/9/0/csm_Indoor01_klein_f8fb337809.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+}
+#services-social {
+    background: linear-gradient(325deg, var(--dark-dark-overlay), var(--dark-dark-overlay)), url(https://cdn.discordapp.com/attachments/1072556761816514664/1175550391274963115/bar-golf.png?ex=656ba39d&is=65592e9d&hm=ee398826684c3e5bfd5c77651aff3dd63760f0362d870256cf05691658a1484f&);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: -25px;
+}
+.service-name-header {
+    font-family: "Audiowide";
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+.service-name-subheader {
+    margin-top: -40px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
