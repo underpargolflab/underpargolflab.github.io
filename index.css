@@ -340,9 +340,11 @@
 
 #redlines {
     position: absolute;
-    margin-top: -400px;
+    margin-top: -100px;
     transform: scale(1.1) rotate(5deg);
-    z-index: -5;
+    z-index: -40;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 
